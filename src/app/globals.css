@@ -1,7 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family: "text";
+  src: url("/fonts/PPFragment-SansRegular.otf");
+}
+::selection {
+  color: #f2f2f2;
+  background: #b48cf5;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,18 +23,21 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.grid-item-sam:hover img {
+  filter: grayscale(0%);
+  transition: 0.5s;
+}
+.grid-item-sam img {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.imageHover {
+  filter: invert(0);
+}
+.imageHover:hover {
+  filter: invert(1);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body {
+  background-color: #1e1e1e;
 }
