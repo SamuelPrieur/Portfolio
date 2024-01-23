@@ -21,7 +21,8 @@ function PjDev() {
       let ctx = gsap.context(() => {
         gsap.from(".hiddenEffect", {
           opacity: 0,
-          y: 50,
+          y: 10,
+          x: -10,
           duration: 0.8,
           stagger: 0.2,
         });
