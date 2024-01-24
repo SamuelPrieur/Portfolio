@@ -49,7 +49,7 @@ function Home() {
           <section className="border border-border hover:border-important shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4">
             <img
               className=" h-44 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block"
-              src="/sam.png"
+              src="/sam.webp"
               alt="moi"
             />
             <h1 className="lg:text-3xl sm:text-2xl xsm:text-2xl">

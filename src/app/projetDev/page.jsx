@@ -46,19 +46,13 @@ function PjDev() {
         ref={root}
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-2 xsm:gap-3 h-full">
-          <section className="border border-border hover:border-important shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4">
+          <section className="h-14 rounded-full shadow-custom flex flex-row justify-center items-center text-secondary bg-text hiddenEffect bg-noise-pattern grid-item-retour">
             <img
-              className="h-52 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block"
-              src="/sam.png"
+              className="h-11 mr-3 inline-block"
+              src="/arrow.svg"
               alt="moi"
             />
-            <h1 className="lg:text-3xl sm:text-2xl xsm:text-2xl">
-              <span className="text-important">PRojet dev</span>
-              <br />
-              is a second year student in
-              <span className="text-important"> full-stack</span> web
-              developpement
-            </h1>
+            <p className="text-2xl">Go Back</p>
           </section>
 
           <section className="grid auto-rows-auto grid-cols-3 lg:gap-5 md:gap-2 xsm:gap-3 h-full lg:col-span-3 md:col-span-3">
@@ -69,7 +63,7 @@ function PjDev() {
                 </h2>
                 <div className="flex justify-center flex-wrap">
                   <img
-                    className="h-16 m-2 imageHover hiddenEffectFast "
+                    className="h-16 imageHover hiddenEffectFast "
                     src="./dev/logo-HTML.png"
                     alt="logo HTML"
                   />
