@@ -2,20 +2,10 @@
 import { useState, useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
+import Cursor from "../cursor/page";
 
 function Home() {
   const root = useRef();
-  const [name, setName] = useState("");
-  const [request, setRequest] = useState("");
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Nom:", name);
-    console.log("Demande:", request);
-    console.log("Adresse mail:", email);
-  };
-
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
       let ctx = gsap.context(() => {
@@ -40,17 +30,19 @@ function Home() {
     }
   }, [root]);
   return (
-    <main className="font-text text-text">
+    <main className="font-text text-text cursor-none">
+      <Cursor />
       <div
         className="flex justify-center items-center xsm:p-4 sm:p-7 md:p-7 lg:p-7 h-screen"
         ref={root}
       >
-        <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-2 xsm:gap-3 h-full">
-          <section className="border border-border hover:border-important shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4">
+        <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">
+          <section className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4">
             <img
               className=" h-44 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block"
               src="/sam.webp"
               alt="moi"
+              id="sam"
             />
             <h1 className="lg:text-3xl sm:text-2xl xsm:text-2xl">
               <span className="text-important">Samuel Prieur</span>
@@ -62,7 +54,7 @@ function Home() {
           </section>
 
           <section className="grid auto-rows-auto grid-cols-3 lg:gap-5 md:gap-2 xsm:gap-3 h-full lg:col-span-3 md:col-span-3">
-            <div className="border border-border shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
+            <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
               <div>
                 <h2 className="lg:text-2xl xsm:text-3xl m-2 text-center">
                   Web developpement skills
@@ -116,7 +108,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="border border-border shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
+            <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
               <div>
                 <h2 className="lg:text-2xl xsm:text-2xl m-2 text-center">
                   Digital design skills
@@ -162,44 +154,43 @@ function Home() {
               </div>
             </div>
           </section>
-          <section className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-2 xsm:grid-cols-2 lg:gap-5 md:gap-2 xsm:gap-3 h-full lg:col-span-5 md:col-span-5">
+          <section className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-2 xsm:grid-cols-2 lg:gap-4 md:gap-4 xsm:gap-3 h-full lg:col-span-5 md:col-span-5">
             <a
               href="mailto:sprieurpro@gmail.com?subject=Je prend contact depuis ton portfolio !"
-              className="justify-center flex items-center lg:col-start-1 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary border border-border hover:border-important shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc portail justify-center flex items-center lg:col-start-1 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
               <p>Email me</p>
             </a>
             <a
               href="tel:+33603000197"
-              className="justify-center flex items-center lg:col-start-2 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary border border-border hover:border-important shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc portail justify-center flex items-center lg:col-start-2 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
               <p>Call me</p>
             </a>
             <a
               href="https://www.linkedin.com/in/samuel-prieur/"
               target="_blank"
-              className="justify-center flex items-center lg:col-start-3 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary border border-border hover:border-important shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc portail justify-center flex items-center lg:col-start-3 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
               <p>Linkedin</p>
             </a>
             <a
               href="https://github.com/SamuelPrieur"
               target="_blank"
-              className="justify-center flex items-center lg:col-start-4 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary border border-border hover:border-important shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc portail justify-center flex items-center lg:col-start-4 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
               <p>Github</p>
             </a>
-            <button className="lg:col-start-5 lg:text-lg md:lg:text-2xl xsm:text-2xl lg:col-span-1 md:col-span-2 xsm:col-span-2 rounded-xl  inline bg-secondary border border-border hover:border-important shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7">
+            <a className="bloc justify-center flex items-center portail lg:col-start-5 lg:text-lg md:lg:text-2xl xsm:text-2xl lg:col-span-1 md:col-span-2 xsm:col-span-2 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7">
               Access my CV
-            </button>
+            </a>
           </section>
 
-          <section className="border border-border hover:border-important shadow-custom lg:col-span-3 md:col-span-3 rounded-xl  inline bg-secondary hiddenEffect bg-noise-pattern  p-5">
+          <section className="bloc portail view flex shadow-custom lg:col-span-3 md:col-span-3 rounded-xl  justify-center items-center bg-secondary hiddenEffect bg-noise-pattern  p-5">
             <h1 className="lg:text-2xl xsm:text-2xl text-center">Parcours</h1>
           </section>
           <Link
-            id="swup"
-            className="border border-border hover:border-important shadow-custom transition-fade rounded-xl lg:col-span-2 md:col-span-2  bg-secondary hiddenEffect bg-noise-pattern  "
+            className="bloc portail view shadow-custom rounded-xl lg:col-span-2 md:col-span-2  bg-secondary hiddenEffect bg-noise-pattern "
             href={"/projetDev"}
           >
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
@@ -212,7 +203,7 @@ function Home() {
             </h1>
           </Link>
 
-          <section className="border border-border hover:border-important shadow-custom rounded-xl lg:col-span-2 md:col-span-2  inline bg-secondary hiddenEffect bg-noise-pattern ">
+          <section className="bloc portail view shadow-custom rounded-xl lg:col-span-2 md:col-span-2  inline bg-secondary hiddenEffect bg-noise-pattern ">
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
               Création Numérique <br />
               Création Numérique <br />
@@ -223,10 +214,7 @@ function Home() {
             </h1>
           </section>
           <section className=" grid auto-rows-auto grid-cols-2 lg:gap-5 md:gap-2 xsm:gap-3 h-full lg:col-span-3 md:col-span-3 xsm:col-span-1">
-            <form
-              className="border border-border shadow-customp-2 col-span-2 rounded-xl lg:text-2xl xsm:text-2xl inline bg-secondary hiddenEffect bg-noise-pattern "
-              onSubmit={handleSubmit}
-            >
+            <form className="bloc shadow-custom p-2 col-span-2 rounded-xl lg:text-2xl xsm:text-2xl inline bg-secondary hiddenEffect bg-noise-pattern ">
               <h1 className="text-center">Contact</h1>
               <p>
                 Salut Samuel! Je suis [
@@ -234,9 +222,6 @@ function Home() {
                   className="w-28 border-none bg-secondary bg-noise-pattern  text-important placeholder:text-important"
                   type="text"
                   placeholder=" ton nom"
-                  value={name}
-                  /* onInput={handleInput} */
-                  onChange={(e) => setName(e.target.value)}
                   maxLength="40"
                   required
                 />
@@ -245,9 +230,6 @@ function Home() {
                   className="border-none w-36 bg-secondary bg-noise-pattern  text-important placeholder:text-important"
                   type="text"
                   placeholder=" ta demande"
-                  value={request}
-                  /* onInput={handleInput} */
-                  onChange={(e) => setRequest(e.target.value)}
                   maxLength="100"
                   required
                 />
@@ -256,9 +238,6 @@ function Home() {
                   className="w-48 object-contain  border-none bg-secondary bg-noise-pattern  text-important placeholder:text-important"
                   type="text"
                   placeholder=" ton adresse mail"
-                  value={email}
-                  /* onInput={handleInput} */
-                  onChange={(e) => setEmail(e.target.value)}
                   maxLength="40"
                   required
                 />

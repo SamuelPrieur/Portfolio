@@ -18,6 +18,7 @@ module.exports = {
       },
       backgroundImage: {
         "noise-pattern": 'url("../assets/noise.png")',
+        pc: 'url("../assets/pc.svg")',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
@@ -26,7 +27,7 @@ module.exports = {
       colors: {
         principal: "#1E1E1E",
         secondary: "#292929",
-        important: "#b48cf5",
+        important: "#e45b54" /* "#b48cf5" */,
         border: "#353535",
         text: "#F2F2F2",
         cube: "#19376D",
