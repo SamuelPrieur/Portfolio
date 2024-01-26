@@ -1,8 +1,8 @@
-import Home from "./Home/page";
+import Language from "./Language/page";
 export default function Portfolio() {
   return (
     <main>
-      <Home />
+      <Language />
     </main>
   );
 }
