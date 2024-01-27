@@ -192,7 +192,7 @@ function Home() {
             <h1 className="lg:text-2xl xsm:text-2xl text-center">Parcours</h1>
           </section>
           <Link
-            href={"/Samuel"}
+            href={"/ProjetDev"}
             className="bloc portail view shadow-custom rounded-xl lg:col-span-2 md:col-span-2  bg-secondary hiddenEffect bg-noise-pattern "
           >
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
