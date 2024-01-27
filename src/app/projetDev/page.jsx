@@ -1,13 +1,11 @@
 "use client";
-import { useRouter } from "next/router";
 import { useState, useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
 import Cursor from "../cursor/page";
 
-function PjDev() {
+function ProjetDev() {
   const root = useRef();
-  const router = useRouter();
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
       let ctx = gsap.context(() => {
@@ -62,4 +60,4 @@ function PjDev() {
   );
 }
 
-export default PjDev;
+export default ProjetDev;
