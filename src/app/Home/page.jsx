@@ -193,12 +193,12 @@ function Home() {
             href={"/ProjetDev"}
           >
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
-              Projet Developpement <br />
-              Projet Developpement <br />
-              Projet Developpement <br />
-              Projet Developpement <br />
-              Projet Developpement <br />
-              Projet Developpement <br />
+              Projet de Dev <br />
+              Projet de Dev <br />
+              Projet de Dev <br />
+              Projet de Dev <br />
+              Projet de Dev <br />
+              Projet de Dev <br />
             </h1>
           </Link>
 
