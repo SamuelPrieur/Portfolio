@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import Link from "next/link";
 import Cursor from "../cursor/page";
 
-function ProjetDev() {
+function ProjectsDev() {
   const root = useRef();
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
@@ -60,4 +60,4 @@ function ProjetDev() {
   );
 }
 
-export default ProjetDev;
+export default ProjectsDev;

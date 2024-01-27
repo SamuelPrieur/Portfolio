@@ -38,7 +38,7 @@ function Home() {
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">
           <Link
-            href={"/ProjetDev"}
+            href={"/Samuel"}
             className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4"
           >
             <img
@@ -192,7 +192,7 @@ function Home() {
             <h1 className="lg:text-2xl xsm:text-2xl text-center">Parcours</h1>
           </section>
           <Link
-            href={"/ProjetDev"}
+            href={"/ProjectsDev"}
             className="bloc portail view shadow-custom rounded-xl lg:col-span-2 md:col-span-2  bg-secondary hiddenEffect bg-noise-pattern "
           >
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
