@@ -8,7 +8,6 @@ import Cursor from "../cursor/page";
 function PjDev() {
   const root = useRef();
   const router = useRouter();
-  const { lang } = router.query;
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
       let ctx = gsap.context(() => {
