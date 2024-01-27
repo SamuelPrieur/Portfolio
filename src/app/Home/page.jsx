@@ -1,5 +1,4 @@
 "use client";
-import { useSearchParams } from "next/navigation";
 import { useState, useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Link from "next/link";
@@ -7,11 +6,6 @@ import Cursor from "../cursor/page";
 
 function Home() {
   const root = useRef();
-  const SomeClientComponent = () => {
-    const [searchParams, setSearchParams] = useSearchParams();
-    const lang = searchParams.get("lang");
-  };
-
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
       let ctx = gsap.context(() => {
@@ -53,9 +47,8 @@ function Home() {
             <h1 className="lg:text-3xl sm:text-2xl xsm:text-2xl">
               <span className="text-important">Samuel Prieur</span>
               <br />
-              {lang === "fr" ? "est un futur" : "is a second year student in"}
-              <span className="text-important"> full-stack</span>{" "}
-              {lang === "fr" ? "développeur" : "developper"}
+              is a second year student in
+              <span className="text-important"> full-stack</span> developper
             </h1>
           </section>
 
@@ -63,9 +56,7 @@ function Home() {
             <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
               <div>
                 <h2 className="lg:text-2xl xsm:text-3xl m-2 text-center">
-                  {lang === "fr"
-                    ? "Compétences en développement web"
-                    : "Web developpement skills"}
+                  Web developpement skills
                 </h2>
                 <div className="flex justify-center flex-wrap">
                   <img
@@ -119,9 +110,7 @@ function Home() {
             <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
               <div>
                 <h2 className="lg:text-2xl xsm:text-2xl m-2 text-center">
-                  {lang === "fr"
-                    ? "Compétences en Création numérique"
-                    : "Digital design skills"}
+                  Digital design skills
                 </h2>
 
                 <div className="flex justify-center flex-wrap">
@@ -169,13 +158,13 @@ function Home() {
               href="mailto:sprieurpro@gmail.com?subject=Je prend contact depuis ton portfolio !"
               className="bloc portail justify-center flex items-center lg:col-start-1 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
-              <p>{lang === "fr" ? "Mon mail" : "Email me"}</p>
+              <p>Email me</p>
             </a>
             <a
               href="tel:+33603000197"
               className="bloc portail justify-center flex items-center lg:col-start-2 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
-              <p>{lang === "fr" ? "Mon téléphone" : "Call me"}</p>
+              <p>Call me</p>
             </a>
             <a
               href="https://www.linkedin.com/in/samuel-prieur/"
@@ -187,12 +176,12 @@ function Home() {
             <a
               href="https://github.com/SamuelPrieur"
               target="_blank"
-              className="bloc portail justify-center flex items-center lg:col-start-4 lg:text-lg md:lg:text-2xl sm:text-2xl xsm:text-xl  col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc justify-center flex items-center portail lg:col-start-4 lg:text-lg md:lg:text-2xl xsm:text-2xl lg:col-span-1 md:col-span-2 xsm:col-span-2 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
-              <p>Github</p>
+              Github
             </a>
             <a className="bloc justify-center flex items-center portail lg:col-start-5 lg:text-lg md:lg:text-2xl xsm:text-2xl lg:col-span-1 md:col-span-2 xsm:col-span-2 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7">
-              {lang === "fr" ? "Mon CV" : "Access My CV"}
+              Access My CV
             </a>
           </section>
 
@@ -201,7 +190,7 @@ function Home() {
           </section>
           <Link
             className="bloc portail view shadow-custom rounded-xl lg:col-span-2 md:col-span-2  bg-secondary hiddenEffect bg-noise-pattern "
-            href={{ pathname: "/ProjetDev", query: { lang } }}
+            href={"/ProjetDev"}
           >
             <h1 className="text-center lg:text-2xl xsm:text-2xl ">
               Projet Developpement <br />

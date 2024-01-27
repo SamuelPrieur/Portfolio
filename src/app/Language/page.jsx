@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import Link from "next/link";
 import Cursor from "../cursor/page";
 
-function Language() {
+function index() {
   const root = useRef();
 
   useLayoutEffect(() => {
@@ -62,4 +62,4 @@ function Language() {
   );
 }
 
-export default Language;
+export default index;

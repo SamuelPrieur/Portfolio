@@ -84,6 +84,3 @@ body {
 .bloc {
   border: solid 0.08rem #4b4b4b;
 }
-.pc {
-  background-image: url(../assets/pc.svg), url(../assets/noise.png);
-}
