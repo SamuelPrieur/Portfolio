@@ -33,7 +33,7 @@ function PjDev() {
       >
         <div className="grid justify-center auto-rows-auto lg:grid-cols-8 md:grid-cols-8 xsm:grid-cols-1 lg:col-span-1 md:col-span-2 lg:gap-4 md:gap-2 xsm:gap-3 h-full">
           <Link
-            href={{ pathname: "/Home", query: { lang } }}
+            href={"/Home"}
             className="h-14 portail rounded-full lg:col-span-2 md:col-span-2 xsm:col-span-2 shadow-custom flex flex-row justify-center items-center text-secondary bg-text hiddenEffect bg-noise-pattern grid-item-retour"
           >
             <img
