@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import Link from "next/link";
 import Cursor from "../cursor/page";
 
-function Home() {
+function Samuel() {
   const root = useRef();
   useLayoutEffect(() => {
     if (typeof window !== "undefined") {
@@ -37,7 +37,7 @@ function Home() {
         ref={root}
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">
-          <Link
+          <section
             href={"/Samuel"}
             className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4"
           >
@@ -53,7 +53,7 @@ function Home() {
               is a second year student in
               <span className="text-important"> full-stack</span> developper
             </h1>
-          </Link>
+          </section>
 
           <section className="grid auto-rows-auto grid-cols-3 lg:gap-4 md:gap-4 xsm:gap-3 h-full lg:col-span-3 md:col-span-3">
             <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">
@@ -256,4 +256,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Samuel;
