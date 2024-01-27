@@ -42,7 +42,7 @@ function Home() {
             className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4"
           >
             <img
-              className=" h-44 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block"
+              className=" h-44 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block "
               src="/sam.webp"
               alt="moi"
               id="sam"
@@ -179,7 +179,7 @@ function Home() {
             <a
               href="https://github.com/SamuelPrieur"
               target="_blank"
-              className="bloc justify-center flex items-center portail lg:col-start-4 lg:text-lg md:lg:text-2xl xsm:text-2xl lg:col-span-1 md:col-span-2 xsm:col-span-2 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
+              className="bloc justify-center flex items-center portail lg:col-start-4 lg:text-lg md:lg:text-2xl xsm:text-2xl col-span-1 rounded-xl bg-secondary  shadow-custom hiddenEffect bg-noise-pattern  lg:p-2 md:p-3 xsm:p-7"
             >
               Github
             </a>

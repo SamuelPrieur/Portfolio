@@ -16,14 +16,6 @@ function Samuel() {
           duration: 0.8,
           stagger: 0.2,
         });
-
-        gsap.from(".hiddenEffectFast", {
-          opacity: 0,
-          delay: 0.8,
-          y: 10,
-          duration: 0.8,
-          stagger: 0.15,
-        });
       }, root);
 
       return () => ctx.revert();
@@ -37,23 +29,11 @@ function Samuel() {
         ref={root}
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">
-          <section
-            href={"/Samuel"}
-            className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4"
-          >
-            <img
-              className=" h-44 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block"
-              src="/sam.webp"
-              alt="moi"
-              id="sam"
-            />
-            <h1 className="lg:text-3xl sm:text-2xl xsm:text-2xl">
-              <span className="text-important">Samuel Prieur</span>
-              <br />
-              is a second year student in
-              <span className="text-important"> full-stack</span> developper
-            </h1>
-          </section>
+          <img
+            className="bloc hiddenEffect lg:col-span-2 md:col-span-2 shadow-custom h-96 lg:m-6 sm:m-6 xsm:m-2 md:m-6 inline-block rounded-xl"
+            src="/GIGI.webp"
+            alt="samuel"
+          />
 
           <section className="grid auto-rows-auto grid-cols-3 lg:gap-4 md:gap-4 xsm:gap-3 h-full lg:col-span-3 md:col-span-3">
             <div className="bloc shadow-custom place-content-center flex items-center rounded-xl lg:col-start-1 md:col-start-1 col-span-3 bg-secondary hiddenEffect bg-noise-pattern ">

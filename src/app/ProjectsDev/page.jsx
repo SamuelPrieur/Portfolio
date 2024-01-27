@@ -36,7 +36,7 @@ function ProjectsDev() {
             <img
               className="h-11 mr-3 inline-block"
               src="/arrow.svg"
-              alt="moi"
+              alt="Flèche de Retour"
             />
             <p className="text-2xl">Go Back</p>
           </Link>
