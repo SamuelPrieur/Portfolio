@@ -38,7 +38,7 @@ function Home() {
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">
           <Link
-            href={"/Samuel"}
+            href={"/ProjetDev"}
             className="bloc portail view shadow-custom flex flex-col xsm:justify-center xsm:items-center sm:justify-center sm:items-center lg:flex-row lg:col-span-2 md:col-span-2 rounded-xl bg-secondary hiddenEffect bg-noise-pattern grid-item-sam p-4"
           >
             <img
