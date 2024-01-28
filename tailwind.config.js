@@ -25,15 +25,11 @@ module.exports = {
       },
 
       colors: {
-        principal: "#121212",
+        principal: "#1e1e1e",
         secondary: "#1F1F1F",
         important: "#e45b54" /* "#b48cf5" */,
         border: "#353535",
         text: "#F2F2F2",
-        cube: "#19376D",
-        blue: {
-          950: "#0B2447",
-        },
       },
     },
   },

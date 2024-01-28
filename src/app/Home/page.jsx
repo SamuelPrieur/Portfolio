@@ -30,10 +30,11 @@ function Home() {
     }
   }, [root]);
   return (
-    <main className="font-text text-text cursor-none">
+    <main className="font-text text-text cursor-none bg-principal">
       <Cursor />
+      <div className="page-header"></div>
       <div
-        className="flex justify-center items-center xsm:p-4 sm:p-7 md:p-7 lg:p-7 h-screen"
+        className="flex justify-center items-center xsm:p-4 sm:p-7 md:p-7 lg:p-7 h-screen "
         ref={root}
       >
         <div className="grid auto-rows-auto lg:grid-cols-5 md:grid-cols-5 xsm:grid-cols-1 lg:gap-4 md:gap-4 xsm:gap-3 h-full">

@@ -24,6 +24,7 @@ function Samuel() {
   return (
     <main className="font-text text-text cursor-none">
       <Cursor />
+      <div className="page-header"></div>
       <div
         className="flex justify-center items-center xsm:p-4 sm:p-7 md:p-7 lg:p-7 h-screen"
         ref={root}
