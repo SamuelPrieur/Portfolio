@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         text: ["text", "sans-serif"],
+        competence: ["competence", "sans-serif"],
       },
       backgroundImage: {
         "noise-pattern": 'url("../assets/noise.png")',
@@ -25,11 +27,11 @@ module.exports = {
       },
 
       colors: {
-        principal: "#1e1e1e",
-        secondary: "#1F1F1F",
-        important: "#e45b54" /* "#b48cf5" */,
-        border: "#353535",
-        text: "#F2F2F2",
+        Background: "#000000",
+        Block: "#131315",
+        Highlights: "#FB8154" /* 7A85E9 */,
+        Text: "#F2F2F2",
+        SmText: "#7B7B7B",
       },
     },
   },
