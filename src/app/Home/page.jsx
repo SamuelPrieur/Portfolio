@@ -45,23 +45,23 @@ function Home() {
     <main className="font-text text-Text leading-normal cursor-none bg-Background overflow-hidden">
       <Cursor />
       <div className="flex justify-center items-center p-7 h-full ">
-        <div className="grid  grid-cols-10 gap-4 gap-y-96 w-full">
-          <section className="col-span-10 grid  grid-cols-10 gap-4 w-full">
-            <nav
-              id="Home"
-              className="text-xl px-4 col-span-10 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20"
-            >
+        <div className="grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 gap-y-96 w-full">
+          <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1  sm:col-span-1 xsm:col-span-1 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 w-full">
+            <nav className="text-xl px-4 lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20">
               <ul className="flex place-items-center justify-between w-full">
                 <div className="m-auto grid grid-cols-8 text-center place-items-center w-full">
                   <a className="col-start-1 portail" href="/Home">
                     samuel prieur.
                   </a>
 
-                  <a className="col-start-7 portail" href="/Home">
+                  <a
+                    className="lg:block md:block sm:hidden xsm:hidden col-start-7 portail"
+                    href="/Home"
+                  >
                     home.
                   </a>
                   <a
-                    className="col-start-8 portail text-SmText hover:text-Text  "
+                    className=" col-start-8 portail lg:text-SmText lg:hover:text-Text md:text-SmText md:hover:text-Text sm:text-Text xsm:text-Text "
                     href="#contact"
                   >
                     contact.
@@ -70,7 +70,7 @@ function Home() {
               </ul>
             </nav>
 
-            <section className="Block Ghidden bg-noise-pattern col-span-6">
+            <section className="Block Ghidden bg-noise-pattern lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
               <Image
                 className="grayscale p-4"
                 src="/sam.webp"
@@ -86,7 +86,7 @@ function Home() {
               </h1>
             </section>
 
-            <section className="Block Dhidden bg-noise-pattern col-span-4">
+            <section className="Block Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
               <h2 className="text-6xl">Skills As</h2>
               <br />
               <h3 className="text-4xl">a Web Developper</h3>
@@ -166,7 +166,7 @@ function Home() {
               </div>
             </section>
 
-            <section className="grid auto-rows-auto lg:grid-cols-4 md:grid-cols-2 xsm:grid-cols-2 gap-4 col-span-10">
+            <section className="grid auto-rows-auto lg:grid-cols-4 md:grid-cols-2 xsm:grid-cols-2 gap-4 lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
               <a
                 href="tel:+33603000197"
                 className="Block Ghidden bg-noise-pattern portail justify-center flex items-center lg:col-start-1 text-xl rounded-full lg:p-4 md:p-3 xsm:p-7"
@@ -192,7 +192,7 @@ function Home() {
               </a>
             </section>
           </section>
-          <section className="Block flex justify-center items-center Ghidden bg-noise-pattern col-span-4">
+          <section className="Block lg:block md:hidden sm:hidden xsm:hidden flex justify-center items-center Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <Image
               className="grayscale rounded-2xl"
               src="/GIGI.webp"
@@ -204,7 +204,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern portail col-span-6 text-6xl p-4">
+          <section className="Block Dhidden bg-noise-pattern portail lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-6xl p-4">
             <h2>
               My strength lies in merging creative design with advanced
               development skills. My objective ? <br />
@@ -215,13 +215,9 @@ function Home() {
             </h2>
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern portail col-span-10 p-4">
-            Slider en cours de construction !
-          </section>
-
-          <section className="Block Dhidden bg-noise-pattern col-span-10 text-wrap ">
+          <section className="Block Dhidden bg-noise-pattern lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap ">
             <h1 className="text-5xl">My Journey.</h1>
-            <div className="justify-evenly flex items-center m-10">
+            <div className="justify-evenly flex lg:flex-row md:flex-col sm:flex-col xsm:flex-col items-center m-10">
               <div className="my-12  p-2 rounded-2xl">
                 <h2 className="text-2xl my-1">High School</h2>
                 <h3 className="text-xl text-SmText my-2">
@@ -232,7 +228,7 @@ function Home() {
                   reflexion"
                 </p>
               </div>
-              <hr className="w-1 h-36 mx-8 bg-Text rounded-full "></hr>
+              <hr className="lg:w-1 lg:h-36 lg:mx-8 md:h-1 md:w-36 md:my-8 sm:h-1 sm:w-36 sm:my-8 xsm:h-1 xsm:w-36 xsm:my-8 bg-Text rounded-full "></hr>
               <div className="my-12  p-2 rounded-2xl">
                 <h2 className="text-2xl my-1">IUT Rouen</h2>
                 <h3 className="text-xl text-SmText my-2">
@@ -243,7 +239,7 @@ function Home() {
                   much more...
                 </p>
               </div>
-              <hr className="w-1 h-36 mx-8 bg-Text rounded-full "></hr>
+              <hr className="lg:w-1 lg:h-36 lg:mx-8 md:h-1 md:w-36 md:my-8 sm:h-1 sm:w-36 sm:my-8 xsm:h-1 xsm:w-36 xsm:my-8 bg-Text rounded-full "></hr>
               <div className="my-12  p-2 rounded-2xl">
                 <h2 className="text-2xl my-1">CÉGEP Matane</h2>
                 <h3 className="text-xl text-SmText my-2">
@@ -256,21 +252,21 @@ function Home() {
             </div>
           </section>
 
-          <section className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               DashBoard.
               <br />
               <span className="text-SmText text-2xl">
                 Analysis of a French department.
               </span>
             </h1>
-            <h2 className="mt-3 text-2xl col-start-6 col-span-3">
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
               I had to build a dashboard to monitor consumption and production
               in the Meurthe et Moselle department.
             </h2>
 
             <Image
-              className="portail view h-28 col-start-10 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
               src="/arrow.svg"
               width={200}
               height={200}
@@ -279,7 +275,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               src="/projects/DashBoard.webp"
               width={1470}
               height={919.5}
@@ -289,60 +285,62 @@ function Home() {
             />
           </section>
 
-          <section className=" Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Bug Tracker.
               <br />
               <span className="text-SmText text-2xl">
                 Communication Plateform.
               </span>
             </h1>
-            <h2 className="mt-3 text-2xl col-start-6 col-span-3 ">
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
               I had to create a platform for game developers to communicate with
               their game testers.
             </h2>
+
             <Image
-              className="portail view h-28 col-start-10 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              src="/projects/BugTracker.webp"
               width={1470}
               height={919.5}
               priority={false}
               quality={80}
-              src="/projects/BugTracker.webp"
-              alt="photo du Bug Tracker"
+              alt="photo du BugTracker"
             />
           </section>
 
-          <section className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Portfolio.
               <br />
               <span className="text-SmText text-2xl">
                 My Favourite Project so far.
               </span>
             </h1>
-            <h2 className="mt-3 text-2xl col-start-6 col-span-3 pb-10">
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
               I had to create a Portfolio to present me, myself and I.
             </h2>
+
             <Image
-              className="portail view h-28 col-start-10 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={1470}
               height={919.5}
               priority={false}
@@ -352,25 +350,26 @@ function Home() {
             />
           </section>
 
-          <section className=" Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 mt-3 pb-10">
+          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI Poster.
               <br />
               <span className="text-SmText text-2xl">
                 Introduction to Photography.
               </span>
             </h1>
+
             <Image
-              className="mt-3 portail view h-28 col-start-4 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-4 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-4"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -380,25 +379,26 @@ function Home() {
             />
           </section>
 
-          <section className=" Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               El Camino.
               <br />
               <span className="text-SmText text-2xl">
                 Introduction to Photoshop.
               </span>
             </h1>
+
             <Image
-              className="mt-3 portail view h-28 col-start-4 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-4 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-4"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -408,25 +408,26 @@ function Home() {
             />
           </section>
 
-          <section className=" Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Spine SkatePark.
               <br />
               <span className="text-SmText text-2xl">
                 Creation of an Identity.
               </span>
             </h1>
+
             <Image
-              className="mt-3 portail view h-28 col-start-4 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-4 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-4"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -436,25 +437,26 @@ function Home() {
             />
           </section>
 
-          <section className=" Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Museum Poster.
               <br />
               <span className="text-SmText text-2xl">
                 Promotion of a fictional exposition.
               </span>
             </h1>
+
             <Image
-              className="mt-3 portail view h-28 col-start-4 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-4 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-4"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -464,25 +466,26 @@ function Home() {
             />
           </section>
 
-          <section className="Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI LightBulb.
               <br />
               <span className="text-SmText text-2xl">
                 Promotion of BUT MMI.
               </span>
             </h1>
+
             <Image
-              className="mt-3 portail view h-28 col-start-4 fleche"
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-4 fleche"
+              src="/arrow.svg"
               width={200}
               height={200}
               priority={false}
               quality={80}
-              src="/arrow.svg"
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-4"
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -492,12 +495,12 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern justify-center flex items-center col-span-4">
+          <section className="Block lg:flex md:hidden sm:hidden xsm:hidden Dhidden bg-noise-pattern justify-center  items-center h-full col-span-4 ">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               More to come.
             </h1>
           </section>
-          <section className="col-span-10">
+          <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <section
               id="contact"
               className="Block Bhidden bg-noise-pattern justify-center flex items-center flex-col p-4 mb-4 self-center text-center text-5xl "
@@ -516,14 +519,14 @@ function Home() {
               </h2>
               <a
                 href="mailto:sprieurpro@gmail.com?subject=I need you for ..."
-                className="bloc portail justify-center flex w-full items-center col-span-8 rounded-full bg-Highlights m-8 p-7"
+                className="bloc portail justify-center flex w-full items-center lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 rounded-full bg-Highlights m-8 p-7"
               >
                 sprieurpro@gmail.com
               </a>
             </section>
             <nav className="text-xl  bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between px-4 h-20">
               <ul className="flex place-items-center justify-between w-full">
-                <div className="m-auto grid grid-cols-8 text-center place-items-center w-full">
+                <div className="m-auto px-4 grid grid-cols-8 place-items-center w-full">
                   <a className="col-start-1 portail" href="/Home">
                     samuel prieur.
                   </a>

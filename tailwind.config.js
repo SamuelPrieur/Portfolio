@@ -13,7 +13,7 @@ module.exports = {
       },
       screens: {
         xsm: "280px",
-        lg: "1250px",
+        lg: "1080px",
       },
       fontFamily: {
         text: ["text", "sans-serif"],
