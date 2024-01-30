@@ -257,7 +257,7 @@ function Home() {
             </div>
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-10 text-wrap grid grid-cols-10 Projects">
+          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               DashBoard.
               <br />
@@ -288,7 +288,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-10 text-wrap grid grid-cols-10 Projects">
+          <section className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Bug Tracker.
               <br />
@@ -318,7 +318,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-10 text-wrap grid grid-cols-10 Projects">
+          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Portfolio.
               <br />
@@ -347,7 +347,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-5 text-wrap grid grid-cols-4 Projects">
+          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               MMI Poster.
               <br />
@@ -373,7 +373,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-5 text-wrap grid grid-cols-4 Projects">
+          <section className="Block Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               El Camino.
               <br />
@@ -399,7 +399,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-5 text-wrap grid grid-cols-4 Projects">
+          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Spine SkatePark.
               <br />
@@ -425,7 +425,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-5 text-wrap grid grid-cols-4 Projects">
+          <section className="Block Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Museum Poster.
               <br />
@@ -451,7 +451,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-5 text-wrap grid grid-cols-4 Projects">
+          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               MMI LightBulb.
               <br />
@@ -477,7 +477,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern justify-center flex items-center col-span-5">
+          <section className="Block Dhidden bg-noise-pattern justify-center flex items-center col-span-4">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               More to come.
             </h1>
