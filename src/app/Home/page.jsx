@@ -57,14 +57,8 @@ function Home() {
                     samuel prieur.
                   </a>
 
-                  <a className="col-start-6 portail" href="/Home">
+                  <a className="col-start-7 portail" href="/Home">
                     home.
-                  </a>
-                  <a
-                    className="col-start-7 portail text-SmText hover:text-Text  "
-                    href="#works"
-                  >
-                    works.
                   </a>
                   <a
                     className="col-start-8 portail text-SmText hover:text-Text  "
@@ -83,6 +77,7 @@ function Home() {
                 width={250}
                 height={250}
                 priority={false}
+                quality={80}
                 alt="Photo de Samuel Prieur"
               />
               <h1 className="portail text-6xl">
@@ -97,46 +92,46 @@ function Home() {
               <h3 className="text-4xl">a Web Developper</h3>
               <br />
               <div className=" font-competence flex justify-center flex-wrap">
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   HTML
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   CSS
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Javascript
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   PHP
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   SQL
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   SASS
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   React
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   NextJs
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Python
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Gsap
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   AnimeJs
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Git
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Linux
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   More...
                 </p>
               </div>
@@ -144,28 +139,28 @@ function Home() {
               <h3 className="text-4xl">a UI Designer</h3>
               <br />
               <div className="font-competence flex justify-center flex-wrap">
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Ai
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Ps
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Pr
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Xd
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Figma
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Au
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   Ae
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
                   More...
                 </p>
               </div>
@@ -197,13 +192,14 @@ function Home() {
               </a>
             </section>
           </section>
-          <section className="Block Ghidden bg-noise-pattern col-span-4">
+          <section className="Block flex justify-center items-center Ghidden bg-noise-pattern col-span-4">
             <Image
               className="grayscale rounded-2xl"
               src="/GIGI.webp"
-              width={500}
-              height={600}
+              width={350}
+              height={450}
               priority={false}
+              quality={80}
               alt="Photo de Samuel Prieur"
             />
           </section>
@@ -260,10 +256,7 @@ function Home() {
             </div>
           </section>
 
-          <section
-            id="works"
-            className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects"
-          >
+          <section className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className=" mt-3 text-5xl col-start-1 col-span-3 pb-10">
               DashBoard.
               <br />
@@ -282,6 +275,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               alt="logo de flèche"
             />
             <Image
@@ -290,6 +284,7 @@ function Home() {
               width={1470}
               height={919.5}
               priority={false}
+              quality={80}
               alt="photo du DashBoard"
             />
           </section>
@@ -311,6 +306,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -319,6 +315,7 @@ function Home() {
               width={1470}
               height={919.5}
               priority={false}
+              quality={80}
               src="/projects/BugTracker.webp"
               alt="photo du Bug Tracker"
             />
@@ -340,6 +337,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -348,6 +346,7 @@ function Home() {
               width={1470}
               height={919.5}
               priority={false}
+              quality={80}
               src="/projects/Portfolio.webp"
               alt="photo de mon Portfolio"
             />
@@ -366,6 +365,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -374,6 +374,7 @@ function Home() {
               width={866}
               height={1208.67}
               priority={false}
+              quality={80}
               src="/projects/AfficheS1.webp"
               alt="Affiche MMI"
             />
@@ -392,6 +393,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -400,6 +402,7 @@ function Home() {
               width={866}
               height={1208.67}
               priority={false}
+              quality={80}
               src="/projects/ElCamino.webp"
               alt="Affiche du film El Camino"
             />
@@ -418,6 +421,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -426,6 +430,7 @@ function Home() {
               width={866}
               height={1208.67}
               priority={false}
+              quality={80}
               src="/projects/SpineSkatePark.webp"
               alt="Affiche de Spine SkatePark"
             />
@@ -444,6 +449,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -452,6 +458,7 @@ function Home() {
               width={866}
               height={1208.67}
               priority={false}
+              quality={80}
               src="/projects/SNCF.webp"
               alt="Affiche de promotion d'un faux musée"
             />
@@ -470,6 +477,7 @@ function Home() {
               width={200}
               height={200}
               priority={false}
+              quality={80}
               src="/arrow.svg"
               alt="logo de flèche"
             />
@@ -478,6 +486,7 @@ function Home() {
               width={866}
               height={1208.67}
               priority={false}
+              quality={80}
               src="/projects/Ampoule.webp"
               alt="Affiche Ampoule MMI"
             />
@@ -499,6 +508,7 @@ function Home() {
                 width={200}
                 height={200}
                 priority={false}
+                quality={80}
                 alt="Logo de Samuel Prieur"
               />
               <h2 className="text-7xl m-8">
