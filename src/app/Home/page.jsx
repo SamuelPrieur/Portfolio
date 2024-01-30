@@ -47,7 +47,10 @@ function Home() {
       <div className="flex justify-center items-center p-7 h-full ">
         <div className="grid  grid-cols-10 gap-4 gap-y-96 w-full">
           <section className="col-span-10 grid  grid-cols-10 gap-4 w-full">
-            <nav className="text-xl px-4  col-span-10 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20">
+            <nav
+              id="Home"
+              className="text-xl px-4 col-span-10 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20"
+            >
               <ul className="flex place-items-center justify-between w-full">
                 <div className="m-auto grid grid-cols-8 text-center place-items-center w-full">
                   <a className="col-start-1 portail" href="/Home">
@@ -59,7 +62,7 @@ function Home() {
                   </a>
                   <a
                     className="col-start-7 portail text-SmText hover:text-Text  "
-                    href="/Home"
+                    href="#works"
                   >
                     works.
                   </a>
@@ -220,7 +223,7 @@ function Home() {
             Slider en cours de construction !
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-10 text-wrap ">
+          <section className="Block Dhidden bg-noise-pattern col-span-10 text-wrap ">
             <h1 className="text-5xl">My Journey.</h1>
             <div className="justify-evenly flex items-center m-10">
               <div className="my-12  p-2 rounded-2xl">
@@ -257,7 +260,10 @@ function Home() {
             </div>
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
+          <section
+            id="works"
+            className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects"
+          >
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               DashBoard.
               <br />
@@ -288,7 +294,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
+          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Bug Tracker.
               <br />
@@ -318,7 +324,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
+          <section className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
             <h1 className="text-5xl col-start-1 col-span-3 pb-10">
               Portfolio.
               <br />
