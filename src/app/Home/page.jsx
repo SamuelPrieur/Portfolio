@@ -80,58 +80,62 @@ function Home() {
                 quality={80}
                 alt="Photo de Samuel Prieur"
               />
-              <h1 className="portail text-6xl">
+              <h1 className="portail lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl">
                 Samuel Prieur is a second year junior developper
                 <span className="text-SmText"> currently in BUT MMI.</span>
               </h1>
             </section>
 
             <section className="Block Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
-              <h2 className="text-6xl">Skills As</h2>
+              <h2 className="lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl">
+                Skills As
+              </h2>
               <br />
-              <h3 className="text-4xl">a Web Developper</h3>
+              <h3 className="lg:text-4xl md:text-3xl sm:text-2xl xsm:text-2xl">
+                a Web Developper
+              </h3>
               <br />
               <div className=" font-competence flex justify-center flex-wrap">
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   HTML
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   CSS
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Javascript
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   PHP
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   SQL
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   SASS
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   React
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   NextJs
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Python
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Gsap
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   AnimeJs
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Git
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Linux
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   More...
                 </p>
               </div>
@@ -139,28 +143,28 @@ function Home() {
               <h3 className="text-4xl">a UI Designer</h3>
               <br />
               <div className="font-competence flex justify-center flex-wrap">
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Ai
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Ps
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Pr
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Xd
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Figma
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Au
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   Ae
                 </p>
-                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md text-xl">
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   More...
                 </p>
               </div>
@@ -169,25 +173,25 @@ function Home() {
             <section className="grid auto-rows-auto lg:grid-cols-4 md:grid-cols-2 xsm:grid-cols-2 gap-4 lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
               <a
                 href="tel:+33603000197"
-                className="Block Ghidden bg-noise-pattern portail justify-center flex items-center lg:col-start-1 text-xl rounded-full lg:p-4 md:p-3 xsm:p-7"
+                className="Block Ghidden bg-noise-pattern portail justify-center flex items-center lg:col-start-1 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7"
               >
                 <p>Call me</p>
               </a>
               <a
                 href="https://www.linkedin.com/in/samuel-prieur/"
                 target="_blank"
-                className="Block Ghidden bg-noise-pattern portail justify-center flex items-center lg:col-start-2 text-xl rounded-full lg:p-4 md:p-3 xsm:p-7"
+                className="Block Ghidden bg-noise-pattern portail justify-center flex items-center lg:col-start-2 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7"
               >
                 <p>Linkedin</p>
               </a>
               <a
                 href="https://github.com/SamuelPrieur"
                 target="_blank"
-                className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-3 text-xl rounded-full lg:p-4 md:p-3 xsm:p-7"
+                className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-3 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7"
               >
                 Github
               </a>
-              <a className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-4 text-xl rounded-full lg:p-4 md:p-3 xsm:p-7">
+              <a className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-4 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7">
                 Access My CV
               </a>
             </section>
@@ -204,7 +208,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern portail lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-6xl p-4">
+          <section className="Block Dhidden bg-noise-pattern portail lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl p-4">
             <h2>
               My strength lies in merging creative design with advanced
               development skills. My objective ? <br />
@@ -216,11 +220,15 @@ function Home() {
           </section>
 
           <section className="Block Dhidden bg-noise-pattern lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap ">
-            <h1 className="text-5xl">My Journey.</h1>
+            <h1 className="lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl">
+              My Journey.
+            </h1>
             <div className="justify-evenly flex lg:flex-row md:flex-col sm:flex-col xsm:flex-col items-center m-10">
               <div className="my-12  p-2 rounded-2xl">
-                <h2 className="text-2xl my-1">High School</h2>
-                <h3 className="text-xl text-SmText my-2">
+                <h2 className="lg:text-2xl md:text-2xl sm:text-xl xsm:text-xl my-1">
+                  High School
+                </h2>
+                <h3 className="lg:text-xl md:text-xl sm:text-md xsm:text-md text-SmText my-2">
                   General BAC with honors
                 </h3>
                 <p className="text-lg text-SmText">
@@ -230,8 +238,10 @@ function Home() {
               </div>
               <hr className="lg:w-1 lg:h-36 lg:mx-8 md:h-1 md:w-36 md:my-8 sm:h-1 sm:w-36 sm:my-8 xsm:h-1 xsm:w-36 xsm:my-8 bg-Text rounded-full "></hr>
               <div className="my-12  p-2 rounded-2xl">
-                <h2 className="text-2xl my-1">IUT Rouen</h2>
-                <h3 className="text-xl text-SmText my-2">
+                <h2 className="lg:text-2xl md:text-2xl sm:text-xl xsm:text-xl my-1">
+                  IUT Rouen
+                </h2>
+                <h3 className="lg:text-xl md:text-xl sm:text-md xsm:text-md text-SmText my-2">
                   2nd year of BUT MMI
                 </h3>
                 <p className="text-lg text-SmText">
@@ -241,8 +251,10 @@ function Home() {
               </div>
               <hr className="lg:w-1 lg:h-36 lg:mx-8 md:h-1 md:w-36 md:my-8 sm:h-1 sm:w-36 sm:my-8 xsm:h-1 xsm:w-36 xsm:my-8 bg-Text rounded-full "></hr>
               <div className="my-12  p-2 rounded-2xl">
-                <h2 className="text-2xl my-1">CÉGEP Matane</h2>
-                <h3 className="text-xl text-SmText my-2">
+                <h2 className="lg:text-2xl md:text-2xl sm:text-xl xsm:text-xl my-1">
+                  CÉGEP Matane
+                </h2>
+                <h3 className="lg:text-xl md:text-xl sm:text-md xsm:text-md text-SmText my-2">
                   Double Degree I Hope
                 </h3>
                 <p className="text-lg text-SmText">
@@ -253,7 +265,7 @@ function Home() {
           </section>
 
           <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               DashBoard.
               <br />
               <span className="text-SmText text-2xl">
@@ -286,7 +298,7 @@ function Home() {
           </section>
 
           <section className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Bug Tracker.
               <br />
               <span className="text-SmText text-2xl">
@@ -319,7 +331,7 @@ function Home() {
           </section>
 
           <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Portfolio.
               <br />
               <span className="text-SmText text-2xl">
@@ -351,7 +363,7 @@ function Home() {
           </section>
 
           <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI Poster.
               <br />
               <span className="text-SmText text-2xl">
@@ -380,7 +392,7 @@ function Home() {
           </section>
 
           <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               El Camino.
               <br />
               <span className="text-SmText text-2xl">
@@ -409,7 +421,7 @@ function Home() {
           </section>
 
           <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Spine SkatePark.
               <br />
               <span className="text-SmText text-2xl">
@@ -438,7 +450,7 @@ function Home() {
           </section>
 
           <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Museum Poster.
               <br />
               <span className="text-SmText text-2xl">
@@ -467,7 +479,7 @@ function Home() {
           </section>
 
           <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
-            <h1 className=" mt-3 text-5xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI LightBulb.
               <br />
               <span className="text-SmText text-2xl">
@@ -496,14 +508,14 @@ function Home() {
           </section>
 
           <section className="Block lg:flex md:hidden sm:hidden xsm:hidden Dhidden bg-noise-pattern justify-center  items-center h-full col-span-4 ">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+            <h1 className="text-6xl col-start-1 col-span-3 pb-10">
               More to come.
             </h1>
           </section>
           <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <section
               id="contact"
-              className="Block Bhidden bg-noise-pattern justify-center flex items-center flex-col p-4 mb-4 self-center text-center text-5xl "
+              className="Block Bhidden bg-noise-pattern justify-center flex items-center flex-col p-4 mb-4 self-center text-center lg:text-7xl md:text-5xl sm:text-3xl xsm:text-xl "
             >
               <Image
                 className="m-8"
@@ -514,7 +526,7 @@ function Home() {
                 quality={80}
                 alt="Logo de Samuel Prieur"
               />
-              <h2 className="text-7xl m-8">
+              <h2 className="lg:text-7xl md:text-5xl sm:text-3xl xsm:text-xl m-8">
                 Have a Job <br /> For me?
               </h2>
               <a
