@@ -68,7 +68,7 @@ function Home() {
                   </a>
                   <a
                     className="col-start-8 portail text-SmText hover:text-Text  "
-                    href="/Home"
+                    href="#contact"
                   >
                     contact.
                   </a>
@@ -489,7 +489,10 @@ function Home() {
             </h1>
           </section>
           <section className="col-span-10">
-            <section className="Block Bhidden bg-noise-pattern justify-center flex items-center flex-col p-4 mb-4 self-center text-center text-5xl ">
+            <section
+              id="contact"
+              className="Block Bhidden bg-noise-pattern justify-center flex items-center flex-col p-4 mb-4 self-center text-center text-5xl "
+            >
               <Image
                 className="m-8"
                 src="/logo.svg"
