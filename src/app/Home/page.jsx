@@ -85,7 +85,7 @@ function Home() {
                 priority={false}
                 alt="Photo de Samuel Prieur"
               />
-              <h1 className="text-6xl">
+              <h1 className="portail text-6xl">
                 Samuel Prieur is a second year junior developper
                 <span className="text-SmText"> currently in BUT MMI.</span>
               </h1>
@@ -262,16 +262,16 @@ function Home() {
 
           <section
             id="works"
-            className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects"
+            className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects"
           >
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+            <h1 className=" mt-3 text-5xl col-start-1 col-span-3 pb-10">
               DashBoard.
               <br />
               <span className="text-SmText text-2xl">
                 Analysis of a French department.
               </span>
             </h1>
-            <h2 className="text-2xl col-start-6 col-span-3">
+            <h2 className="mt-3 text-2xl col-start-6 col-span-3">
               I had to build a dashboard to monitor consumption and production
               in the Meurthe et Moselle department.
             </h2>
@@ -294,15 +294,15 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Dhidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               Bug Tracker.
               <br />
               <span className="text-SmText text-2xl">
                 Communication Plateform.
               </span>
             </h1>
-            <h2 className="text-2xl col-start-6 col-span-3 ">
+            <h2 className="mt-3 text-2xl col-start-6 col-span-3 ">
               I had to create a platform for game developers to communicate with
               their game testers.
             </h2>
@@ -324,15 +324,15 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Ghidden bg-noise-pattern col-span-8 col-start-2 text-wrap grid grid-cols-10 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               Portfolio.
               <br />
               <span className="text-SmText text-2xl">
                 My Favourite Project so far.
               </span>
             </h1>
-            <h2 className="text-2xl col-start-6 col-span-3 pb-10">
+            <h2 className="mt-3 text-2xl col-start-6 col-span-3 pb-10">
               I had to create a Portfolio to present me, myself and I.
             </h2>
             <Image
@@ -348,13 +348,13 @@ function Home() {
               width={1470}
               height={919.5}
               priority={false}
-              src="/projects/BugTracker.webp"
+              src="/projects/Portfolio.webp"
               alt="photo de mon Portfolio"
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
+            <h1 className="text-5xl col-start-1 col-span-3 mt-3 pb-10">
               MMI Poster.
               <br />
               <span className="text-SmText text-2xl">
@@ -362,7 +362,7 @@ function Home() {
               </span>
             </h1>
             <Image
-              className="portail view h-28 col-start-4 fleche"
+              className="mt-3 portail view h-28 col-start-4 fleche"
               width={200}
               height={200}
               priority={false}
@@ -379,8 +379,8 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               El Camino.
               <br />
               <span className="text-SmText text-2xl">
@@ -388,7 +388,7 @@ function Home() {
               </span>
             </h1>
             <Image
-              className="portail view h-28 col-start-4 fleche"
+              className="mt-3 portail view h-28 col-start-4 fleche"
               width={200}
               height={200}
               priority={false}
@@ -405,8 +405,8 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               Spine SkatePark.
               <br />
               <span className="text-SmText text-2xl">
@@ -414,7 +414,7 @@ function Home() {
               </span>
             </h1>
             <Image
-              className="portail view h-28 col-start-4 fleche"
+              className="mt-3 portail view h-28 col-start-4 fleche"
               width={200}
               height={200}
               priority={false}
@@ -431,8 +431,8 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className=" Dhidden bg-noise-pattern col-span-4 text-wrap grid grid-cols-4 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               Museum Poster.
               <br />
               <span className="text-SmText text-2xl">
@@ -440,7 +440,7 @@ function Home() {
               </span>
             </h1>
             <Image
-              className="portail view h-28 col-start-4 fleche"
+              className="mt-3 portail view h-28 col-start-4 fleche"
               width={200}
               height={200}
               priority={false}
@@ -457,8 +457,8 @@ function Home() {
             />
           </section>
 
-          <section className="Block Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
-            <h1 className="text-5xl col-start-1 col-span-3 pb-10">
+          <section className="Ghidden bg-noise-pattern col-span-4 col-start-2 text-wrap grid grid-cols-4 Projects">
+            <h1 className="mt-3 text-5xl col-start-1 col-span-3 pb-10">
               MMI LightBulb.
               <br />
               <span className="text-SmText text-2xl">
@@ -466,7 +466,7 @@ function Home() {
               </span>
             </h1>
             <Image
-              className="portail view h-28 col-start-4 fleche"
+              className="mt-3 portail view h-28 col-start-4 fleche"
               width={200}
               height={200}
               priority={false}
