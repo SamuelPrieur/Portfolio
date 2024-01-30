@@ -81,3 +81,36 @@ nav {
 .my-element {
   transition: opacity 0.5s ease-in-out;
 }
+.Ghidden {
+  opacity: 0;
+  transition: all 0.75s;
+  filter: blur(0.25rem);
+  transform: translateX(-50%);
+}
+.Gshow {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.Dhidden {
+  opacity: 0;
+  transition: all 0.75s;
+  filter: blur(0.25rem);
+  transform: translateX(50%);
+}
+.Dshow {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.Bhidden {
+  opacity: 0;
+  transition: all 0.75s;
+  filter: blur(0.25rem);
+  transform: translateY(50%);
+}
+.Bshow {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

@@ -8,7 +8,7 @@ const Cursor = () => {
     const cursorText = document.querySelector(".cursor-text");
     const onMouseMove = (event) => {
       const { clientX, clientY } = event;
-      gsap.to(cursor, { x: clientX, y: clientY });
+      gsap.set(cursor, { x: clientX, y: clientY });
     };
 
     const onMouseEnterLink = (event) => {
