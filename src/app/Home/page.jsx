@@ -136,6 +136,9 @@ function Home() {
                   Linux
                 </p>
                 <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
+                  Tailwind
+                </p>
+                <p className="text-Highlights border-Highlights border p-2 px-5 m-1 rounded-md lg:text-xl md:text-xl sm:text-md xsm:text-md">
                   More...
                 </p>
               </div>
@@ -208,7 +211,7 @@ function Home() {
             />
           </section>
 
-          <section className="Block Dhidden bg-noise-pattern portail lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl p-4">
+          <section className="Block Dhidden bg-noise-pattern portail text-wrap lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl p-4">
             <h2>
               My strength lies in merging creative design with advanced
               development skills. My objective ? <br />
@@ -264,7 +267,10 @@ function Home() {
             </div>
           </section>
 
-          <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/1"
+            className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               DashBoard.
               <br />
@@ -295,9 +301,12 @@ function Home() {
               quality={80}
               alt="photo du DashBoard"
             />
-          </section>
+          </a>
 
-          <section className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/2"
+            className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Bug Tracker.
               <br />
@@ -328,9 +337,12 @@ function Home() {
               quality={80}
               alt="photo du BugTracker"
             />
-          </section>
+          </a>
 
-          <section className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/3"
+            className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
               Portfolio.
               <br />
@@ -360,9 +372,12 @@ function Home() {
               src="/projects/Portfolio.webp"
               alt="photo de mon Portfolio"
             />
-          </section>
+          </a>
 
-          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/4"
+            className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI Poster.
               <br />
@@ -389,9 +404,12 @@ function Home() {
               src="/projects/AfficheS1.webp"
               alt="Affiche MMI"
             />
-          </section>
+          </a>
 
-          <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/5"
+            className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               El Camino.
               <br />
@@ -418,9 +436,12 @@ function Home() {
               src="/projects/ElCamino.webp"
               alt="Affiche du film El Camino"
             />
-          </section>
+          </a>
 
-          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/6"
+            className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Spine SkatePark.
               <br />
@@ -447,9 +468,12 @@ function Home() {
               src="/projects/SpineSkatePark.webp"
               alt="Affiche de Spine SkatePark"
             />
-          </section>
+          </a>
 
-          <section className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/7"
+            className="Dhidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               Museum Poster.
               <br />
@@ -476,9 +500,12 @@ function Home() {
               src="/projects/SNCF.webp"
               alt="Affiche de promotion d'un faux musée"
             />
-          </section>
+          </a>
 
-          <section className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects">
+          <a
+            href="Home/8"
+            className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
             <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-4 sm:col-span-4 xsm:col-span-4 pb-10">
               MMI LightBulb.
               <br />
@@ -505,13 +532,188 @@ function Home() {
               src="/projects/Ampoule.webp"
               alt="Affiche Ampoule MMI"
             />
-          </section>
+          </a>
 
           <section className="Block lg:flex md:hidden sm:hidden xsm:hidden Dhidden bg-noise-pattern justify-center  items-center h-full col-span-4 ">
             <h1 className="text-6xl col-start-1 col-span-3 pb-10">
               More to come.
             </h1>
           </section>
+
+          <a
+            href="Home/9"
+            className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+              CIKLab.
+              <br />
+              <span className="text-SmText text-2xl">
+                Production of a Motion Design.
+              </span>
+            </h1>
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
+              We had to create a Motion Design as a team for CIKLab, amazing
+              experience.
+            </h2>
+
+            <Image
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
+              width={200}
+              height={200}
+              priority={false}
+              quality={80}
+              alt="logo de flèche"
+            />
+            <Image
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              src="/projects/CIKLab.webp"
+              width={1470}
+              height={919.5}
+              priority={false}
+              quality={80}
+              alt="Site CiKLab"
+            />
+          </a>
+
+          <a
+            href="Home/10"
+            className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+              Film Noir.
+              <br />
+              <span className="text-SmText text-2xl">
+                My favourite audiovisual project.
+              </span>
+            </h1>
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
+              I had act as a detective in this short film, and edit the footage.
+            </h2>
+
+            <Image
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
+              width={200}
+              height={200}
+              priority={false}
+              quality={80}
+              alt="logo de flèche"
+            />
+            <Image
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              src="/projects/FilmNoir.webp"
+              width={1470}
+              height={919.5}
+              priority={false}
+              quality={80}
+              alt="Illustration du film Noir"
+            />
+          </a>
+
+          <a
+            href="Home/11"
+            className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+              Museum Presentation.
+              <br />
+              <span className="text-SmText text-2xl">
+                Video presentation of a fictional exposition.
+              </span>
+            </h1>
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
+              This is the video accompanying the poster from earlier.
+            </h2>
+
+            <Image
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
+              width={200}
+              height={200}
+              priority={false}
+              quality={80}
+              alt="logo de flèche"
+            />
+            <Image
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              width={1470}
+              height={919.5}
+              priority={false}
+              quality={80}
+              src="/projects/Gare.webp"
+              alt="Illustration de la video"
+            />
+          </a>
+
+          <a
+            href="Home/12"
+            className="Dhidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+              Crecsendo Video.
+              <br />
+              <span className="text-SmText text-2xl">
+                Creation of a rhythmic video.
+              </span>
+            </h1>
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
+              I had to create video and a song with it.
+            </h2>
+
+            <Image
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
+              width={200}
+              height={200}
+              priority={false}
+              quality={80}
+              alt="logo de flèche"
+            />
+            <Image
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              src="/projects/Crecsendo.webp"
+              width={1470}
+              height={919.5}
+              priority={false}
+              quality={80}
+              alt="photo de la video crecsendo"
+            />
+          </a>
+
+          <a
+            href="Home/13"
+            className="Ghidden bg-noise-pattern lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
+          >
+            <h1 className=" mt-3 lg:text-6xl md:text-5xl sm:text-3xl xsm:text-3xl col-start-1 lg:col-span-3 md:col-span-10 sm:col-span-10 xsm:col-span-10 pb-10">
+              Interview.
+              <br />
+              <span className="text-SmText text-2xl">My first video.</span>
+            </h1>
+            <h2 className="mt-3 text-2xl col-start-6 lg:block md:hidden sm:hidden xsm:hidden col-span-3">
+              I had to film, direct and edit a short film about an interview.
+            </h2>
+
+            <Image
+              className="portail lg:block md:hidden sm:hidden xsm:hidden view col-start-10 fleche"
+              src="/arrow.svg"
+              width={200}
+              height={200}
+              priority={false}
+              quality={80}
+              alt="logo de flèche"
+            />
+            <Image
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
+              width={1470}
+              height={919.5}
+              priority={false}
+              quality={80}
+              src="/projects/Carotte.webp"
+              alt="photo de l'interview Carotte"
+            />
+          </a>
+
           <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <section
               id="contact"
