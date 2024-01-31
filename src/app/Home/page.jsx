@@ -194,7 +194,11 @@ function Home() {
               >
                 Github
               </a>
-              <a className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-4 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7">
+              <a
+                href="/CV.pdf"
+                download="CV.pdf"
+                className="Block Dhidden bg-noise-pattern portail justify-center flex items-center lg:col-start-4 lg:text-xl md:text-xl sm:text-md xsm:text-md rounded-full lg:p-4 md:p-3 xsm:p-7"
+              >
                 Access My CV
               </a>
             </section>
