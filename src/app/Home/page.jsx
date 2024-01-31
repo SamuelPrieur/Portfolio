@@ -48,7 +48,7 @@ function Home() {
         <div className="grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 gap-y-96 w-full">
           <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1  sm:col-span-1 xsm:col-span-1 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 w-full">
             <nav className="lg:text-xl md:text-xl sm:text-md xsm:text-md px-4 lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20">
-              <ul className="flex place-items-center justify-between w-full">
+              <div className="flex place-items-center justify-between w-full">
                 <div className="m-auto grid grid-cols-8 text-center place-items-center w-full">
                   <a className="col-start-1 portail" href="/Home">
                     samuel prieur.
@@ -67,7 +67,7 @@ function Home() {
                     contact.
                   </a>
                 </div>
-              </ul>
+              </div>
             </nav>
 
             <section className="Block Ghidden bg-noise-pattern lg:col-span-6 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
