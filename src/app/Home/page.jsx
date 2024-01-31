@@ -203,12 +203,12 @@ function Home() {
               </a>
             </section>
           </section>
-          <section className="Block lg:block md:hidden sm:hidden xsm:hidden flex justify-center items-center Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
+          <section className=" lg:flex md:hidden sm:hidden xsm:hidden  justify-center items-center Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <Image
-              className="grayscale rounded-2xl"
-              src="/GIGI.webp"
-              width={350}
-              height={450}
+              className="grayscale rounded-2xl w-full"
+              src="/samsam.webp"
+              width={550}
+              height={650}
               priority={false}
               quality={80}
               alt="Photo de Samuel Prieur"
