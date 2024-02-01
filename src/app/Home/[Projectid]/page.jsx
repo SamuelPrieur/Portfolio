@@ -118,7 +118,7 @@ export default function ProjectDetails() {
     },
     {
       id: 4,
-      lien: "/test",
+      lien: "",
       titre: "MMI Poster.",
       theme: ["Photography", "Editing", "Photoshop", "LightRoom"],
       texte:
