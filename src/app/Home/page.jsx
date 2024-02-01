@@ -45,11 +45,11 @@ function Home() {
     <main className="font-text text-Text leading-normal cursor-none bg-Background overflow-hidden">
       <Cursor />
       <div className="flex justify-center items-center p-7 h-full ">
-        <div className="grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 gap-y-96 w-full">
-          <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1  sm:col-span-1 xsm:col-span-1 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 w-full">
+        <div className="grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 gap-y-96 h-full">
+          <section className="lg:col-span-10 md:col-span-1 sm:md:col-span-1  sm:col-span-1 xsm:col-span-1 grid lg:grid-cols-10 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 gap-4 h-full">
             <nav className="lg:text-xl md:text-xl sm:text-md xsm:text-md px-4 lg:col-span-10 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between h-20">
-              <div className="flex place-items-center justify-between w-full">
-                <div className="m-auto grid grid-cols-8 text-center place-items-center w-full">
+              <div className="flex place-items-center justify-between h-full">
+                <div className="m-auto grid grid-cols-8 text-center place-items-center h-full">
                   <a className="col-start-1 portail" href="/Home">
                     samuel prieur.
                   </a>
@@ -205,7 +205,7 @@ function Home() {
           </section>
           <section className=" lg:flex md:hidden sm:hidden xsm:hidden  justify-center items-center Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1">
             <Image
-              className="grayscale rounded-2xl w-full"
+              className="grayscale rounded-2xl h-full"
               src="/samsam.webp"
               width={550}
               height={650}
@@ -400,7 +400,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -432,7 +432,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -464,7 +464,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -496,7 +496,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -528,7 +528,7 @@ function Home() {
               alt="logo de flèche"
             />
             <Image
-              className="grayscale rounded-2xl duration-500 hover:grayscale-0 w-full col-span-10 "
+              className="grayscale rounded-2xl duration-500 hover:grayscale-0 h-full col-span-10 "
               width={866}
               height={1208.67}
               priority={false}
@@ -737,14 +737,14 @@ function Home() {
               </h2>
               <a
                 href="mailto:sprieurpro@gmail.com?subject=I need you for ..."
-                className="bloc portail justify-center flex w-full items-center lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 rounded-full bg-Highlights m-8 p-7"
+                className="bloc portail justify-center flex h-full items-center lg:col-span-8 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 rounded-full bg-Highlights m-8 p-7"
               >
                 sprieurpro@gmail.com
               </a>
             </section>
             <nav className="lg:text-xl md:text-xl sm:text-md xsm:text-md  bg-Block bg-noise-pattern rounded-full flex place-items-center justify-between px-4 h-20">
-              <ul className="flex place-items-center justify-between w-full">
-                <div className="m-auto px-4 grid grid-cols-8 place-items-center w-full">
+              <ul className="flex place-items-center justify-between h-full">
+                <div className="m-auto px-4 grid grid-cols-8 place-items-center h-full">
                   <a className="col-start-1 portail" href="/Home">
                     samuel prieur.
                   </a>
