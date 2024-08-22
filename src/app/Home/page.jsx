@@ -377,7 +377,7 @@ function Home() {
               alt="photo de mon Portfolio"
             />
           </a>
-
+          {/*
           <a
             href="Home/4"
             className="Ghidden bg-noise-pattern lg:col-span-4 md:col-span-1 sm:md:col-span-1 xsm:col-span-1 lg:col-start-2 md:col-start-1 sm:col-start-1 xsm:col-start-1 text-wrap grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 xsm:grid-cols-1 Projects"
@@ -543,6 +543,7 @@ function Home() {
               More to come.
             </h1>
           </section>
+            */}
 
           <a
             href="Home/9"
